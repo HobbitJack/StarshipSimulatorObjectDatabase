@@ -1,0 +1,31 @@
+<html>
+
+<script src="table_build.js"></script>
+
+<head>
+    <meta charset="UTF-8">
+    <title> Starship Simulator Object Database v0.1 </title>
+</head>
+
+<body>
+    <h1> Starship Simulator Object Database v0.0.1 </h1>
+    <h2> Made by HobbitJack </h2>
+    <form id="DBSetup" action="table_build.js">
+        <h4> Choose Database: </h3>
+            <input type="radio" id="alg1" name="algtable" value="Algorithm 1">
+            <label for="alg1">Algorithm 1 -- v0.223.7.17</label>
+            <input type="radio" id="alg2" name="algtable" value="Algorithm 2">
+            <label for="alg2">Algorithm 2 -- v1.0.0.0</label>
+            <h4> Choose Object Type: </h4>
+            <input type="radio" id="blackhole" name="objtype" value="Black Holes">
+            <label for="blackhole">Black Holes</label>
+            <input type="radio" id="oclass" name="objtype" value="O-Class Stars">
+            <label for="oclass">O-Class Stars</label>
+            <input type="radio" id="nebula" name="objtype" value="Nebulae">
+            <label for="oclass">Nebulae</label><br><br>
+            <input type="submit" id="submitbutton" value="Generate Table">
+    </form>
+    <table id="gentable">
+</body>
+
+</html>
